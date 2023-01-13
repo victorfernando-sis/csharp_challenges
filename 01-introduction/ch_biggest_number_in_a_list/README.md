@@ -16,4 +16,14 @@ Imagine you had a list of numbers: `1, 18, 5, 12, 11, 0, 33, 105, 20, 88, 9, 32`
 
 ## Solution
 
-<!-- Place your solution here. You can remove this comment -->
+using System;
+using System.Linq;
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        var sourceArray = new int[] {1,18,5,12,11,0,33,105,20,88,9,32};
+        Console.WriteLine(sourceArray.Max());
+        
+    }
+}
